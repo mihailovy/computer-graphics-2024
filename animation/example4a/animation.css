@@ -1,0 +1,24 @@
+body{
+	background: transparent url('space.jpg') no-repeat top left;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.items{
+	/* border: 2px solid red; */
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top:0px;
+	left:0px;
+} 
+#item_sun {
+  background-size: 100px !important;
+  background-repeat: no-repeat !important;
+  border-radius:60px;
+}
+#item_mars {
+  background-size: 100px !important;
+  background-repeat: no-repeat !important;
+  border-radius:60px;
+}
