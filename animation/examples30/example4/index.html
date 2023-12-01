@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link href="example4.1.css" rel="stylesheet" type="text/css"/>
+    <script src="example4.1.js"></script>
+  </head>
+  <body>
+  <audio loop autoplay>
+    <source src="sound.ren.ogg" type="audio/ogg">
+    <source src="sound.ren.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio> 
+    <div class="items" id="item2"></div>
+    <div class="items" id="item1"
+         onclick="paraboleAnimate('item1', 10 , 200 , 580, 260);"></div>
+    <div class="items" id="item3"
+         onclick="linearAnimate('item3', 200 , 200 , 580, 260);"></div>
+    <div class="items" id="item33"
+         onclick="circleAnimate('item3', 200 , 100 , 80);"></div>
+    <script>
+      placeItem("angry-bird-1.png", "item1", 10 , 200 );
+      placeItem("aim.png"         , "item2", 580, 260);
+      placeItem("angry-bird-2.png", "item3", 200, 200);
+    </script>
+  </body>
+</html>
+
+
+

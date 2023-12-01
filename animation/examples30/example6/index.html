@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link href="example6.1.css" rel="stylesheet" type="text/css"/>
+		<script src="example6.1.js"></script>
+		<title>The Clock is Ticking</title>
+	</head>
+	<body>
+		<div id="clock_outer">
+			<div id="clock_time"></div>
+			<div id="clock_date"></div>
+		</div>
+		<input type="button" onclick="clock.start();" value=" START "/>
+		<input type="button" onclick="clock.stop();"  value=" STOP " />
+		<br /><br />
+		Hour&nbsp;&nbsp;&nbsp;: <input type="text" class="alm" id="alm_h" value=""/> 
+		Minute: <input type="text" class="alm" id="alm_m" value=""/>
+		<br />
+		<input type="button" value=" SET ALARM "/>
+		<br /><br />
+		<audio controls id="alm_audio">
+			<source src="bell.mp3" type="audio/mpeg">
+			Your browser does not support the audio tag.
+		</audio> 
+	</body>
+</html> 

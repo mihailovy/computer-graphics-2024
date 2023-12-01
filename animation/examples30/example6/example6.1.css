@@ -1,0 +1,14 @@
+#clock_outer{
+	width: 450px;
+	height: 200px;
+	border: 3px solid black;
+} 
+#clock_time{
+	font-size: 6em;
+}
+#clock_date{
+	font-size: 3em;
+}
+.alm{
+	width: 60px;
+}

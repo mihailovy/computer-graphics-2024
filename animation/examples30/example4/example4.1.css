@@ -1,0 +1,14 @@
+body{
+	background: transparent url('castle1.jpg') no-repeat top left;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.items{
+	/* border: 2px solid red; */
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top:0px;
+	left:0px;
+} 
