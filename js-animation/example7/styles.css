@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+}
+#sun {
+    position: fixed;
+}
+#earth {
+    position: fixed;
+}

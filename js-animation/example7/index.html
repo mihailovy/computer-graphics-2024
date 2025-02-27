@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <script src="animate.js"></script>
+        <title>JS Planet Animation</title>
+    </head>
+    <body>
+		
+		<script>
+
+// PLace the sun at the center of the browser window
+let sunX = window.innerWidth  / 2;
+let sunY = window.innerHeight / 2;
+let sunW = 200;		
+
+let earthW = 100;
+let earthR = 250;
+
+		</script>
+        <img id="sun"   src="sun.png"   alt="Sun"/>
+        <img id="earth" src="earth.png" alt="Earth" 
+             onclick="circleAnimate( sunX, sunY, earthW, earthR)"/>
+             
+    <script>
+
+		
+placeItem('sun'  , sunX         , sunY , sunW);
+placeItem('earth', sunX + earthR, sunY , earthW); 
+    </script>
+    </body>
+</html>
