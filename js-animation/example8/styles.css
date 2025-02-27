@@ -1,9 +1,6 @@
 body{
     background-color: black;
 }
-#sun {
-    position: fixed;
-}
-#earth {
-    position: fixed;
+#sun, #earth, #moon{
+  position: fixed;
 }
